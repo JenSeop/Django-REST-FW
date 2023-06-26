@@ -13,7 +13,7 @@ def HelloAPI(request):
 @api_view(['GET', 'POST'])          # GET/POST 요청 처리 데코레이터
 def booksAPI(request):              # /book/
     if request.method == 'GET':     # GET 요청(도서 전체 정보)
-        books = Book.object.all()   # Book 모델로부터 전체 데이터 요청
+        books = Book.objects.all()   # Book 모델로부터 전체 데이터 요청
         serializer = BookSerializer(books, many=True)
         # 시리얼라이저에 전체 데이터 전송 (직렬화, many = True)
         return Response(serializer.data, status=status.HTTP_200_OK) # return Response
