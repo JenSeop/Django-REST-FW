@@ -17,7 +17,7 @@ class BooksAPIMixins(
 
 class BookAPIMixins(
     mixins.RetrieveModelMixin,
-    generics.GenericAPIView,
+    mixins.UpdateModelMixin,
     mixins.DestroyModelMixin,
     generics.GenericAPIView):
     queryset = Book.objects.all()
@@ -27,3 +27,7 @@ class BookAPIMixins(
     
     def get(self, request, *args, **kwargs):            # GET 메소드 처리 함수(1권)
         return self.retrieve(request, *args, **kwargs)  # mixins.RetrieveModelMixin과 연결
+    def put(self, request, *args, **kwargs):            # PUT 메소드 처리 함수(1권 수정)
+        return self.update(request, *args, **kwargs)    # mixins.UpdateModelMixin과 연결
+    def delete(self, request, *args, **kwargs):         # DELETE 메소드 처리 함수(1권 삭제)
+        return self.destroy(request, *args, **kwargs)   # mixins.DestroyModelMixin과 연결
