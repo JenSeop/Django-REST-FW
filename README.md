@@ -15,3 +15,7 @@ Rest Framework의 기술 중 FBV, CBV, Mixins, generics, Viewset, Router의 학�
 python manage.py runserver</code></pre>
 
 # Project-Info
+1. 다음 그림은 Mixins를 활용한 RestFW API 구현입니다.<br>
+![Untitled](https://github.com/JenSeop/Django-REST-FW/assets/95238604/9436026d-fd6e-41ee-b2c0-f70e3ddd7f06)<br><br>
+2. 다음 그림은 generics를 활용한 RestFW API 구현입니다.<br>
+![test](https://github.com/JenSeop/Django-REST-FW/assets/95238604/bd2e7198-aee4-40d3-be6f-ed208dd7dbd8)<br><br>
