@@ -4,7 +4,7 @@ Rest Framework의 기술 중 FBV, CBV, Mixins, generics, Viewset, Router의 학�
 
 # Develope-Enviroment
 <a href="https://www.python.org/" onClick=""><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/></a>
-<a href="https://nodejs.org/en" onClick=""><img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/></a>
+<a href="https://www.djangoproject.com/" onClick=""><img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/></a>
 <a href="https://ubuntu.com/" onClick=""><img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=Ubuntu&logoColor=white"/></a>
 <a href="https://code.visualstudio.com/" onClick=""><img src="https://img.shields.io/badge/VsCode-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/></a>
 
